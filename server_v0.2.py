@@ -53,7 +53,7 @@ try:
         print(output)
 
 except socket.timeout:
-    print("TimeoutError: Can't connect to client, please try again")
+    print("[!] Can't connect to client, please try again")
 finally:
     print('[!] Connection closed')
     server.close()
